@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Piedra Papel y Tijera - Por Christian Guzmán</title>
+    <meta name="author" content="Christian Guzmán" />
+
+    <link rel="stylesheet" href="game.css" />
+    <script type="text/javascript" src="game.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="game-title">
+            Rock Paper Scissors!
+        </div>
+        <div class="author-title">
+            by Christian Guzmán
+        </div>
+        <div class="score-area">
+            <span>Ganados: </span><span class="score-counter" id="wonMatchesLabel">0</span>
+            <span>Perdidos: </span><span class="score-counter" id="lostMatchesLabel">0</span>
+            <span>Empatados: </span><span class="score-counter" id="drawnMatchesLabel">0</span>
+        </div>
+
+        <div class="cpu-area">
+            <div id="cpu-area-selection">
+                <img src="https://yt3.ggpht.com/a/AGF-l78QZoZo3H4_Tt1ECmRQqBmrqtoX_hVQ0OHTzQ=s900-c-k-c0xffffffff-no-rj-mo" />
+            </div>
+        </div>
+
+        <div id="result-area">
+            ...
+        </div>
+
+        <div class="player-area">
+            <div id="player-area-selection">
+                <img src="https://yt3.ggpht.com/a/AGF-l78QZoZo3H4_Tt1ECmRQqBmrqtoX_hVQ0OHTzQ=s900-c-k-c0xffffffff-no-rj-mo" />
+            </div>
+        </div>
+
+        <div class="action-area-wrapper">
+            <div class="action-area">
+                <button id="play-rock">Rock</button>
+                <button id="play-paper">Paper</button>
+                <button id="play-scissors">Scissors</button>
+            </div>
+        </div>
+
+        <div class="menu-area">
+            <button id="new-game-button">New Game</button>
+        </div>
+    </div>
+</body>
+</html>
